@@ -23,7 +23,7 @@ provider:
   # ${self:provider.environment.ATTACHMENT_S3_BUCKET}
   environment:
     TODOS_TABLE: Todos-${self:provider.stage}
-    ATTACHMENT_S3_BUCKET: serverless-todo-images-kelue-${self:provider.stage}
+    IMAGES_S3_BUCKET: serverless-todo-images-kelue-${self:provider.stage}
     TODO_USER_INDEX: TodoUserIndex
     S3_URL_EXPIRATION: 300
     AUTH_0_JWKS_URL: https://dev-kelue.us.auth0.com/.well-known/jwks.json
